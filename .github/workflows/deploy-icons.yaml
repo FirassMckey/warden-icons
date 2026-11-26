@@ -59,7 +59,7 @@ jobs:
             fs.writeFileSync("wrangler.toml", content, "utf8");
           '
 
-          KV_TITLE="warden-icons-cache"
+          KV_TITLE="warden-icons"
 
           KV_ID=$(npx wrangler kv namespace list | node -e '
             const fs = require("fs");
