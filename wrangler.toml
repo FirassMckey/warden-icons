@@ -20,8 +20,6 @@ invocation_logs = false
 #   - CLOUDFLARE_ACCOUNT_ID
 #   - ALLOWED_ORIGIN (e.g., "https://vault.<domain>.com")
 [vars]
-CLOUDFLARE_API_TOKEN = "<set-in-github-actions-secrets>"
-CLOUDFLARE_ACCOUNT_ID = "<set-in-github-actions-secrets>"
 ALLOWED_ORIGIN = "https://vault.<domain>.com"
 
 # KV Namespace binding (ID is auto-created and injected during GitHub Actions deploy)
