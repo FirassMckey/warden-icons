@@ -1,6 +1,6 @@
 # Warden Icons
 
-A lightweight, privacy-focused **Cloudflare Worker** that fetches, serves, and caches website favicons for self-hosted **Bitwarden / Vaultwarden** instances (such as [`warden-worker`](https://github.com/aspect-build/warden-worker) or Vaultwarden setups) using **Cloudflare Workers KV**.
+A lightweight, privacy-focused **Cloudflare Worker** that fetches, serves, and caches website favicons for self-hosted **Bitwarden / Vaultwarden** instances (such as [`warden-worker`](https://github.com/qaz741wsd856/warden-worker) or Vaultwarden setups) using **Cloudflare Workers KV**.
 
 > **AI Disclosure:** This project—including the Worker implementation, Wrangler configuration, GitHub Actions deployment workflow, and documentation—was created and configured with the assistance of AI.
 
