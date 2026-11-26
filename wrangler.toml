@@ -26,5 +26,5 @@ ALLOWED_ORIGIN = "https://vault.<domain>.com"
 
 # KV Namespace binding (ID is auto-created and injected during GitHub Actions deploy)
 [[kv_namespaces]]
-binding = "warden.icons"
+binding = "warden-icons"
 id = "REPLACE_WITH_KV_ID"
