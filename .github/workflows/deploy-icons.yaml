@@ -43,14 +43,7 @@ jobs:
             const fs = require("fs");
             let content = fs.readFileSync("wrangler.toml", "utf8");
 
-            content = content.replace(
-              /CLOUDFLARE_API_TOKEN\s*=\s*"[^"]*"/,
-              `CLOUDFLARE_API_TOKEN = "${process.env.CLOUDFLARE_API_TOKEN}"`
-            );
-            content = content.replace(
-              /CLOUDFLARE_ACCOUNT_ID\s*=\s*"[^"]*"/,
-              `CLOUDFLARE_ACCOUNT_ID = "${process.env.CLOUDFLARE_ACCOUNT_ID}"`
-            );
+         
             content = content.replace(
               /ALLOWED_ORIGIN\s*=\s*"[^"]*"/,
               `ALLOWED_ORIGIN = "${process.env.ALLOWED_ORIGIN}"`
